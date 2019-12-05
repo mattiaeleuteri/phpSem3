@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Recherche de personnes</title>
+  </head>
+  <body>
+    <h2>Recheche de personnes</h2>
+    <form action="" methode="POST">
+      <input type="text" name="nom" placeholder="Nom" />
+      <br />
+      Genre
+      <input type="radio" name="tri" value="m" /> M
+      <input type="radio" name="tri" value="f" /> F
+      <br />
+      <input type="text" name="lieu" placeholder="Lieu" />
+      <br />
+      <input type="checkbox" name="france" />Limiter la recherche à la France
+      <br />
+      <select name="frequence">
+        <option value="-1"></option>
+        <option>1</option>
+        <option>2</option>
+        <option>3</option>
+        <option>4</option>
+        <option>5</option>
+        <option>6</option>
+        <option>7</option>
+        <option>8</option>
+      </select>
+      <br />
+      <input type="text" name="annee" placeholder="Année de naissance" />
+      <br />
+      <br />
+      <button type="submit" name="rechercher">Rechercher</button>
+      <button type="submit" name="exporter">Exporter</button>
+    </form>
+  </body>
+</html>

@@ -1,0 +1,5 @@
+RewriteEngine on
+
+RewriteRule ^ressources/?$ exercice2.php?liste=1
+
+RewriteRule ^ressources/([0-9]+)$ exercice2.php?id=$1

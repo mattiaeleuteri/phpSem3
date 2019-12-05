@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Recherche de véhicules</title>
+  </head>
+  <body>
+    <h2>Recherche de véhicules</h2>
+    <form action="" methode="POST">
+      <input type="text" name="marque" placeholder="Marque ou modèle" />
+      <br />
+      <input type="text" name="annee" placeholder="Année" />
+      <br />
+      <input type="checkbox" name="ancien" />Uniquement modèles anciens
+      <br />
+      <input type="text" name="impot" placeholder="Impôt max." />
+      <br />
+      <input type="text" name="assurance" placeholder="Assurance max." />
+      <br />
+      Tri par
+      <input type="radio" name="tri" value="modele" /> modèle
+      <input type="radio" name="tri" value="annee" /> année
+      <input type="radio" name="tri" value="cout" /> coût
+      <br />
+      <select name="format">
+        <option>HTML</option>
+        <option>PDF</option>
+      </select>
+      <br />
+      <button type="submit" name="rechercher">Rechercher</button>
+    </form>
+  </body>
+</html>
